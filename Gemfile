@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
-ruby "2.7.2"
+ruby "3.0.0"
 
 gem "barnes", "~> 0.0.8"
 gem "bootsnap", ">= 1.4.4", require: false
@@ -9,7 +9,7 @@ gem "lograge", "~> 0.11.2"
 gem "pg", "~> 1.1"
 gem "premailer-rails", "~> 1.11"
 gem "puma", "~> 5.0"
-gem "rails", "~> 6.1.1"
+gem "rails", "~> 6.1.3"
 gem "redis", "~> 4.2"
 gem "sass-rails", ">= 6"
 gem "sentry-raven", "~> 3.1"
