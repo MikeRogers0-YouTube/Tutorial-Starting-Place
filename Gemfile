@@ -9,7 +9,7 @@ gem "lograge", "~> 0.11.2"
 gem "pg", "~> 1.1"
 gem "premailer-rails", "~> 1.11"
 gem "puma", "~> 5.0"
-gem "rails", "~> 6.1.3", ">= 6.1.3.2"
+gem "rails", "~> 6.1.4"
 gem "redis", "~> 4.2"
 gem "sass-rails", ">= 6"
 gem "sentry-raven", "~> 3.1"
@@ -33,6 +33,7 @@ group :development do
   gem "listen", "~> 3.3"
   # gem "rack-mini-profiler", "~> 2.0"
   gem "standardrb", "~> 1.0", require: false
+  gem "web-console", ">= 4.1.0"
 end
 
 group :test do
